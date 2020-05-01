@@ -13,6 +13,4 @@ class Solution:
                 right = middle;
             else:
                 left = middle + 1
-        if isBadVersion(left):
-            return int(left)
-        return int(right)     
+        return int(left)
